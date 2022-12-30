@@ -47,9 +47,7 @@ export default async function Page() {
                 <NewProject/>
             </div>
         </div>
-        <div className="mt-6 flex-2 grow w-full flex">
-          <div className="w-full"><TasksCard/></div>
-        </div>
+        
       </div>
     </div>
   )

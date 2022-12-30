@@ -27,20 +27,20 @@
   }
   
   .candy-mesh {
-    background-color: #ff99ee;
+    background-color: #130210;
     background-image: radial-gradient(
         at 99% 6%,
-        hsla(195, 69%, 67%, 1) 0px,
+        rgb(2, 16, 21) 0px,
         transparent 50%
-      ), radial-gradient(at 55% 88%, hsla(189, 74%, 69%, 1) 0px, transparent 50%),
-      radial-gradient(at 53% 27%, hsla(271, 78%, 63%, 1) 0px, transparent 50%),
-      radial-gradient(at 89% 89%, hsla(317, 89%, 70%, 1) 0px, transparent 50%),
-      radial-gradient(at 35% 44%, hsla(337, 92%, 61%, 1) 0px, transparent 50%);
+      ), radial-gradient(at 55% 88%, rgb(2, 22, 26) 0px, transparent 50%),
+      radial-gradient(at 53% 27%, rgb(15, 4, 24) 0px, transparent 50%),
+      radial-gradient(at 89% 89%, rgb(14, 3, 11) 0px, transparent 50%),
+      radial-gradient(at 35% 44%, rgb(27, 5, 13) 0px, transparent 50%);
   }
   
   .glass {
     backdrop-filter: blur(16px) saturate(180%);
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(61, 54, 54, 0.4);
   }
   
   [data-nextjs-scroll-focus-boundary] {

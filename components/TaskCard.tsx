@@ -28,7 +28,7 @@ const TasksCard = async ({ title, tasks }) => {
 
   return (
     <Card>
-      <div className="flex justify-between items-center">
+      <div className="flex justify-between items-center bg-[#171717]">
         <div>
           <span className="text-3xl text-gray-600">{title}</span>
         </div>
@@ -42,7 +42,7 @@ const TasksCard = async ({ title, tasks }) => {
         {data && data.length ? (
           <div>
             {data.map((task) => (
-              <div className="py-2 ">
+              <div className="py-2 " key={task.name}>
                 <div>
                   <span className="text-gray-800">{task.name}</span>
                 </div>

@@ -18,10 +18,10 @@ const links = [
 
 const Sidebar = () => {
   return (
-    <Card className="h-full w-40 flex items-center justify-between flex-wrap">
+    <Card className="h-full w-40 flex items-center justify-between flex-wrap bg-[#171717]">
       {links.map((link) => (
         // eslint-disable-next-line react/jsx-key
-        <SidebarLink link={link} />
+        <SidebarLink link={link} key={link.icon}/>
       ))}
     </Card>
   );

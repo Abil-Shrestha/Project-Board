@@ -14,7 +14,7 @@ const Greetings = async () => {
   const user = await getData();
 
   return (
-    <Card className="w-full py-4 relative">
+    <Card className="w-full py-4 relative bg-[#171717]">
       <div className="mb-4">
         <h1 className="text-3xl text-gray-700 font-bold mb-4">
           Hello, {user.firstName}!
@@ -24,7 +24,7 @@ const Greetings = async () => {
         </h4>
       </div>
       <div>
-        <Button size="large">Today's Schedule</Button>
+        <Button intent="secondary" size="large">Today's Schedule</Button>
       </div>
     </Card>
   );
